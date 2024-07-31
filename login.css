@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.navbar .logo a img{
+   width: 80%;
+   height: 10vh;
+   border-radius: 30%;
+    margin-left: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-right: 80px;
+
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: orangered;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+.nav-links a:hover {
+    color: rgb(6, 5, 5);
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: orangered;
+}
+
+.about{
+    width: 100%;
+    height: 40vh;
+    background-image: url(./asset/image/background\ 1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.form-container {
+    
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+.textarea{
+    width: 100%;
+}
+
+ .form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+ .form-container input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    
+    border-radius: 4px;
+}
+
+.form-container button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#formResult {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.form-container .container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+}
+
+ .form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+  .form-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form-container  button {
+    width: 30%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+#message {
+    font-size: 16px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+
+.form-container span {
+    width: 100%;
+    height: 6vh;
+    padding: 10px;
+    display: flex;
+    border: 1px solid #ccc;
+    align-items: center;
+    border-radius: 4px;
+}
+.form-container span h4{
+  margin-left: 10px;
+  margin-right: 40px;
+}
+.form-container span p {
+    width: 2.5%;
+    height: 2vh;
+    background-color: green;
+    border-radius: 50%;
+}
+.form-container span i{
+    margin-left: 400px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .nav-links a {
+        color: orangered;
+    }
+    .nav-links {
+    background-color: #fff;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
+    .navbar .logo a img{
+        width: 150%;
+        height: 5vh;
+        border-radius: 30%;
+         margin-left: 0px;
+     }
+     .about{
+        width: 100%;
+        height: 20vh;
+        border-radius: 10px;
+        background-image: url(./asset/image/background\ 1.png);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+
+     .form-container {
+        background: white;
+        padding: 10px;
+        width: 95%;
+      }
+      .form-container input, select {
+        width: 95%;
+      }
+
+      .form-container span i {
+        margin-left: 200px;
+        font-size: 10px;
+      }
+      .form-container span h4 {
+        margin-left: 10px;
+        margin-right: 100px;
+      }
+      .form-container span p {
+        width: 2%;
+        height: 1vh;
+      }
+      .form-container span {
+        width: 95%;
+        height: 3vh;
+      }
+      .form-container button {
+        width: 40%;
+        margin-left: 250px;
+        margin-top: 20px;
+      }
+}

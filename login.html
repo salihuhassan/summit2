@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login site</title>
+    <link rel="stylesheet" href="login.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="asset/image/Frame 11.png" alt=""></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="login.html">listing</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">hot deals</a></li>
+
+        </ul>
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+    </nav>
+
+
+<section class="about">
+    <!-- <div class="about-text">
+        <h1>about us</h1>
+    </div> -->
+</section>
+
+
+    <div class="form-container">
+        <form id="sampleForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="add listing title" required>
+            
+                <form id="feedbackForm">
+                    <label for="feedback">address</label>
+                    <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="add description..."></textarea>
+                </form>
+                <p id="message"></p>
+                <label for="gender">how can we assist you:</label>
+                <select id="gender" name="category" required>
+                    <option value="house">Select property category</option>
+                    <option value="house">wase abuja</option>
+                    <option value="house">maitama abuja</option>
+                    <option value="other">Other</option>
+                </select>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="password">phone number:</label>
+            <input type="password" id="password" name="password" required>
+
+            
+           
+
+            <label for="password">property status</label>
+<span><p></p><h4>active</h4><i class="fa-solid fa-chevron-down"></i></span>
+            <button type="email">send us a email</button>
+        </form>
+        <div id="formResult"></div>
+    </div>
+
+   
+
+
+    <script src="script.js"></script>
+</body>
+</html>

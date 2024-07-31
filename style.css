@@ -1,0 +1,490 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.navbar .logo a img{
+   width: 80%;
+   height: 10vh;
+   border-radius: 30%;
+    margin-left: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-right: 80px;
+
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: orangered;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+.nav-links a:hover {
+    color: rgb(6, 5, 5);
+    text-decoration: none;
+}
+
+.hamburger {
+    color: orangered;
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.main-bar{
+    width: 100%;
+    height: 50vh;
+    background-image: url(./asset/image//map.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+}
+.main-box{
+    margin-top: 170px;
+}
+.text-box{
+    width: 20%;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px 0px;
+
+}
+.text-box .text-1{
+    display: flex;
+   justify-content: center;
+}
+.text-box .text-1 .sell{
+   background-color: #333;
+   width: 35%;
+   height: auto;
+   padding: 10px;
+   text-align: center;
+   border-radius: 10px;
+}
+.text-box .text-1 .sell a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+   font-weight: 500;
+}
+
+.text-box .text-1 .rent{
+   border: 1px solid #333;
+    width: 35%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+ }
+ .text-box .text-1 .rent a{
+     color: #333;
+     text-decoration: none;
+     font-size: 18px;
+    font-weight: 500;
+ }
+
+
+
+ .demo{
+    width: 55%;
+    background-color: #fff;
+margin: auto;
+    box-shadow: 0px 0px 5px 0px black;
+
+ }
+  .demo .demo-1{
+    display: flex;
+
+ }
+ 
+ .demo .tex1{
+   margin-left: 50px;
+ }
+ .demo .tex1 p{
+    margin-left: 10px;
+ }
+ .demo .tex1 span{
+    border-radius: 5px;
+    width: 85%;
+    font-size: 13px;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #3333335f;
+    padding: 8px;
+ }
+ .demo .tex1 span input{
+    border: none;
+ }
+ .demo .tex1 span i{
+    margin-left: 20px;
+ }
+ .demo .tex-1 p{
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    background-color: orangered;
+    border: 1px solid #3333335f;
+    padding: 8px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: none;
+ }
+ .demo .tex-1 p input{
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+ }
+ .demo .tex-1 p i{
+    color: white;
+    font-size: 16px;
+    margin-left: -135px;
+    margin-top: 5px;
+ }
+
+
+
+
+
+
+
+
+
+.menu{
+ 
+  width: 100%;
+  padding: 20px;
+  background-color: transparent;
+  margin-top: 70px;
+
+}
+.menu h2{
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+}
+.menu .text-note{
+    display: flex;
+    align-items: center;
+}
+.menu .text-note p{
+    font-weight: 700;
+}
+.menu .text-note span{
+    margin-left: 850px;
+    font-weight: 700;
+}
+.menu .text-note span i{
+    margin-left: 10px;
+    color: #333;
+}
+
+
+
+
+
+
+
+.box-menu{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+.box-menu .menu-1{
+ display: grid;
+ grid-template-columns: repeat(4, 4fr);
+}
+
+.box-menu img{
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+.box-menu .box-tex{
+    width: 80%;
+    margin-bottom: 20px;
+    height: auto;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px  4px black;
+}
+.box-menu .box-tex span{
+    padding: 8px 20px;
+    background-color: aquamarine;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.box-menu .box-tex h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+
+}
+.box-menu .box-tex i{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.687);
+    margin-right: 5px;
+}
+.box-menu .box-tex p{
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+.box-menu .box-tex .amount{
+    display: flex;
+}
+.box-menu .box-tex .amount p{
+    margin-left: 100px;
+    align-items: center;
+    font-weight: 800;
+    display: flex;
+}
+.box-menu .box-tex .amount i{
+    color: orangered;
+    font-size: 15px;
+}
+.box-menu .box-tex .amount h4{
+    font-weight: 800;
+
+}
+
+
+
+/* styles.css */
+
+
+.pagination {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.pagination #pageNumbers{
+    width: 5%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.pagination button:disabled {
+    cursor: not-allowed;
+    background-color: #e0e0e0;
+}
+
+.pagination button:hover {
+    background-color: #ddd;
+}
+
+#content {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links a {
+        color: orangered;
+    }
+    .nav-links {
+    background-color: #fff;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
+    .navbar .logo a img{
+        width: 150%;
+        height: 5vh;
+        border-radius: 30%;
+         margin-left: 0px;
+     }
+
+     .main-bar {
+        width: 100%;
+        height: 35vh;
+        background-image: url(./asset/image//map.png);
+        background-position: center;
+        background-size: cover;
+        padding-top: 20px;
+        margin-bottom: 30px;
+      }
+      .main-box {
+        margin-top: 140px;
+      }
+
+     .text-box {
+        width: 50%;
+      }
+      .text-box .text-1 .sell {
+        background-color: #333;
+        width: 25%;
+      }
+      .text-box .text-1 .sell a {
+        font-size: 14px;
+        font-weight: 800;
+      }
+      .text-box .text-1 .rent {
+        border: 1px solid #333;
+        width: 25%;
+      }
+      .text-box .text-1 .rent a {
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      .demo {
+        width: 100%;
+        background-color: #fff;
+        margin: auto;
+        padding: 0px;
+        box-shadow: 0px 0px 5px 0px black;
+      }
+      .demo .demo-1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+      }
+      .demo .tex1{
+        margin-left: 3px;
+      }
+      .demo .tex1 p {
+        margin-left: 0px;
+      }
+      .demo .tex1 span i {
+        margin-left: 0px;
+      }
+      .demo .tex-1 p {
+        width: 80%;
+        margin-left: 5px;
+        margin-top: 5px;
+        border: none;
+      }
+      .demo .tex-1 p i {
+        color: white;
+        font-size: 16px;
+        margin-left: -95px;
+        margin-top: 5px;
+      }
+      .menu .text-note span {
+        margin-left: 50px;
+        font-weight: 500;
+      }
+      .menu h2 {
+        font-size: 20px;
+        color: black;
+        margin-top: 20px;
+      }
+      .menu .text-note p {
+        font-weight: 500;
+      }
+
+      .menu {
+        width: 100%;
+        padding: 5px;
+        background-color: transparent;
+        margin-top: 70px;
+      }
+      .box-menu .menu-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+      }
+      .box-menu .box-tex .amount p {
+        margin-left: 10px;
+        align-items: center;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .box-menu img {
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 10px;
+      }
+      .box-menu {
+        width: 100%;
+        padding: 10px;
+        background-color: #fff;
+      }
+      .box-menu .box-tex h3 {
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 10px;
+      }
+
+}
